@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works! woop woop!';
   name:string = 'Max';
+  ninja = {
+    name: "Ryu",
+    belt: "Red"
+  }
+  yell(e) {
+    alert("I am yelling");
+    console.log(e); 
+  }
 }
