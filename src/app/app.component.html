@@ -9,7 +9,8 @@
 </header>
 
 <section id="main">
-  <app-home>
+  <!-- this produces the error (should be in the app-home tag): (onYell)="yell($event)" -->
+  <app-home [ninja]="ninja" (onYell)="yell($event)">
     Loading...
   </app-home>
 </section>

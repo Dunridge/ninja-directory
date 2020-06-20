@@ -2,9 +2,7 @@
   {{homeTitle}}
 </p>
 
-<ng-content></ng-content>
-
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
 <!-- property binding -->
-
-<input value="{{myString}}">
-<input [required]="myBoolean">
+<button (click)="fireYellEvent($event)">Hit me</button>
